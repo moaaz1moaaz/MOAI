@@ -1,7 +1,7 @@
 async function getAIResponse() {
   const userInput = document.getElementById("userInput").value;
   const responseDiv = document.getElementById("response");
-  const apiKey = "sk-svcacct-BH8Oc8KwtWY3UaeP5n7aXE4_mJnj-wKlC02Z-eScb3uUiYpSMKEwnUj1Tvg6AKSXOT3BlbkFJi30cNH94wnQ_1xS2K1nQugUQ4b1l2xBWO1ByOAR6RAKOMwwMDq7kJZgzAMcF-PsAA"; // ضع هنا مفتاح OpenAI الخاص بك
+  const apiKey = "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"; // ضع هنا مفتاح OpenAI الخاص بك
   const assistantId = "asst_xVWEQ1KzJacZaFiB3wdlfPVz"; // ضع معرف المساعد الخاص بك
 
   responseDiv.innerHTML = "جاري التحميل...";
